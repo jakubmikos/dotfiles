@@ -20,46 +20,32 @@ XTerm*selectToClipboard: true
 !#d8d8d8
 *fading:                          8
 *fadeColor:                       black
-*cursorColor:                     #de935f
+*cursorColor:                     #acacac
 *pointerColorBackground:          #2B2C2B
-*pointerColorForeground:          #de953f
+*pointerColorForeground:          #acacac
 
-!! black dark/light
-*color0:                          #282a2e
-*color8:                          #373b41
-
-!! red dark/light
-*color1:                          #a54242
-*color9:                          #cc6666
-
-!! green dark/light
-*color2:                          #8c9440
-*color10:                         #b5bd68
-
-!! yellow dark/light
-*color3:                          #de935f
-*color11:                         #f0c674
-
-!! blue dark/light
-*color4:                          #5f819d
-*color12:                         #81a2be
-
-!! magenta dark/light
-*color5:                          #85678f
-*color13:                         #b294bb
-
-!! cyan dark/light
-*color6:                          #5e8d87
-*color14:                         #8abeb7
-
-!! white dark/light
-*color7:                          #707880
-*color15:                         #c5c8c6
+*color0:                          #272822
+*color1:                          #a70334
+*color2:                          #74aa04
+*color3:                          #b6b649
+*color4:                          #01549e
+*color5:                          #89569c
+*color6:                          #1a83a6
+*color7:                          #cacaca
+*color8:                          #7c7c7c
+*color9:                          #0383f5
+*color10:                         #8dd006
+*color11:                         #58c2e5
+*color12:                         #f3044b
+*color13:                         #a87db8
+*color14:                         #cccc81
+*color15:                         #ffffff
 
 Xcursor.theme: xcursor-breeze
 Xcursor.size:                     0
 
-URxvt.font:                       9x15,xft:TerminessTTFNerdFontMono
+URxvt.font:                       xft:Hack:size=10
+URxvt.letterspace:                -1
 
 ! alternative font settings with 'terminus':
 ! URxvt.font:      -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
